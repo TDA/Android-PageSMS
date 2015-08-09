@@ -7,7 +7,35 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, SMSActivity"
+            android:text="@string/app_name"
+            android:textSize="32dp"
             />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/to"
+            android:text="@string/to"
+            android:gravity="top"
+            android:layout_marginTop="2dp"
+            />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:text="@string/message"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:gravity="top"
+            android:layout_marginTop="2dp"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:id="@+id/send"
+            android:layout_gravity="right"
+
+            />
+
 </LinearLayout>
 
